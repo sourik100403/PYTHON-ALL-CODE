@@ -1,0 +1,7 @@
+f1=open("sourik.txt","r")
+print(f1.read())
+print("i am happy")
+f1.close()
+f1=open("sourik.txt","r")
+print(f1.read(7))
+f1.close()

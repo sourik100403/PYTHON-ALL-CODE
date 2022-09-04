@@ -1,0 +1,6 @@
+tuple1=("orange",(10,11,12),(20,30,40))
+print(tuple1[0])
+print(tuple1[1])
+print(tuple1[1][0])
+print(tuple1[2])
+print(tuple1[2][0])

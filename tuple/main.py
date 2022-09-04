@@ -1,0 +1,10 @@
+tup1=(11,22,33,44,55)
+print(tup1[2])
+print(tup1[1:4])
+print(tup1[2:])
+print(tup1[:3])
+print(tup1[:])
+#del tup1[2]
+#print(tup1)
+print(tup1[0::-1])
+print(tup1[1::2])

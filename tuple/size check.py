@@ -1,0 +1,7 @@
+tup1=(11,22,33,44,55,66,87,54,12,54)
+print(len(tup1))
+n=int(input("enter a number"))
+print(n in tup1)
+print(max(tup1))
+print(min(tup1))
+print(sorted(tup1))

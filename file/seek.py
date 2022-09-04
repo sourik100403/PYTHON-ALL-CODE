@@ -1,0 +1,5 @@
+f1=open("sourik.txt","r")
+print(f1.read(10))
+f1.seek(10)
+print(f1.read())
+f1.close()

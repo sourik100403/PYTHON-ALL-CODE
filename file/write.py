@@ -1,0 +1,8 @@
+f1=open("harry.txt","w")
+print("file name =",f1.name)
+f1.write("i am student")
+f1.close()
+print("data save")
+f1=open("harry.txt","r")
+print(f1.read())
+f1.close()

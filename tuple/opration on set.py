@@ -1,0 +1,8 @@
+s=set([11,22,33])
+t=set([66,22,88])
+print(s|t)
+print(s&t)
+print(s-t)
+print(sorted(t))
+print(sum(s))
+print(sum(t))

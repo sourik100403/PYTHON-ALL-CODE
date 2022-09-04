@@ -1,0 +1,20 @@
+l=[1,2,3,"name"]
+s=set()
+#s=set({1,2,3})
+print("type of set is :",type(s))
+s1=set(l)
+print(l)
+print(type(s1))
+s.add(1)
+s.add(2)
+s.add(3)
+#s.sub(1)
+print(s)
+"""s.remove(1)
+s.remove(2)
+s.remove(3)
+print(s)
+s3={1,4,6,7}
+print(s.isdisjoint(s1))
+"""
+print(max(s))
